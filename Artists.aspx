@@ -6,7 +6,7 @@
 		<div class="col-sm-6 col"><h1>Artists</h1></div><br>
     </div><br />
 	<div class="row content">
-        <p>This page us currently under construction!</p>
+        <p>This page is currently under construction!</p>
     </div>
 
 </asp:Content>
