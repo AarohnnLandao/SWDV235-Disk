@@ -4,6 +4,7 @@
 
     <div class="row content">
 		<div class="col-sm-6 col"><h1>Borrowers</h1></div><br>
+        <p>Add a borrower</p>
     </div><br />
 	<div class="row content">
         <form runat="server">
