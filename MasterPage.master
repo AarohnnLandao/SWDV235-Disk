@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Disk Management</title>	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!--my scripts-->
+	<script src="js/contact.js"></script>
+	    	
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/customAssignment.css" rel="stylesheet">
+
+  </head>
+
+  <body>  
+	<!---           ---         --- Start Nav ---               ---         --->
+	<div class="manualNav">
+		<nav>
+			<ul>
+				<li><a href="Default.aspx">Home</a></li>
+                <li><a href="Artists.aspx">Artists</a></li>
+                <li><a href="Borrower.aspx">Borrowers</a></li>
+                <li><a href="Disks.aspx">Disks</a></li>					
+            </ul>
+		</nav>
+	</div>
+      <!--               ---          End Nav            ---            --->
+      <!-- start content -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>  
+      <!-- end content-->
+</body>
+</html>
