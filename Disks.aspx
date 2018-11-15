@@ -8,7 +8,7 @@
     <div class="form-title"><h1>Artists</h1></div>
         <p>&nbsp;</p>
     
-    <!-- start of artists form -->
+    <!-- start of Disks form -->
     
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
             ConnectionString="<%$ ConnectionStrings:disk_inventoryConnectionString %>" 
