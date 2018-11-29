@@ -5,7 +5,7 @@
 	
     <form id="form1" runat="server">
     
-    <div class="form-title"><h1>Artists</h1></div>
+    <div class="form-title"><h1>Disks</h1></div>
         <p>&nbsp;</p>
     
     <!-- start of Disks form -->

@@ -24,7 +24,8 @@
 				<li><a href="Default.aspx">Home</a></li>
                 <li><a href="Artists.aspx">Artists</a></li>
                 <li><a href="Borrower.aspx">Borrowers</a></li>
-                <li><a href="Disks.aspx">Disks</a></li>					
+                <li><a href="Disks.aspx">Disks</a></li>	
+                <li><a href="Action.aspx">Action</a></li>
             </ul>
 		</nav>
 	</div>
