@@ -23,10 +23,10 @@ Date Modified          Changes
             ConnectionString="<%$ ConnectionStrings:BorrowerIDDropdown %>" 
             SelectCommand="SELECT [Borrower_ID] FROM [Borrower]">
         </asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="IDNumber,Borrower_ID,CD_ID" DataSourceID="SqlDataSource2" Pagesize="10" Width="697px" AllowPaging="True">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="IDNumber,Borrower_ID,CD_ID" DataSourceID="SqlDataSource2" Pagesize="10" Width="837px" AllowPaging="True">
             <Columns>
                 <asp:BoundField DataField="IDNumber" HeaderText=" Checkout Number " InsertVisible="False" ReadOnly="True" SortExpression="IDNumber" />
-                <asp:BoundField DataField="Borrower_ID" HeaderText=" ID " InsertVisible="False" ReadOnly="True" SortExpression="Borrower_ID" />
+                <asp:BoundField DataField="Borrower_ID" HeaderText=" Borrower ID " InsertVisible="False" ReadOnly="True" SortExpression="Borrower_ID" />
                 <asp:BoundField DataField="Borrower_First_Name" HeaderText=" First Name " SortExpression="Borrower_First_Name" />
                 <asp:BoundField DataField="Borrower_Last_Name" HeaderText=" Last Name " SortExpression="Borrower_Last_Name" />
                 <asp:BoundField DataField="CD_ID" HeaderText=" CD#" ReadOnly="True" SortExpression="CD_ID" />

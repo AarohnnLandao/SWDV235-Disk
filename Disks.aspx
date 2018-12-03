@@ -128,7 +128,7 @@
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText=" Release Date" SortExpression="Release_Date">
                     <EditItemTemplate>
-                        <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Release_Date") %>'></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Release_Date") %>'></asp:TextBox>                        
                     </EditItemTemplate>
                     <InsertItemTemplate>
                         <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Release_Date") %>'></asp:TextBox>

@@ -5,9 +5,9 @@
         
     <div class="form-title">
         <p>&nbsp;</p>
-        <h2>Oops! The hyperspace navicomputer miscalculated. We appear to be lost. Please try another page or contact your admin!</h2></div>
+        <h2>Oops! The hyperspace navicomputer miscalculated. We appear to be lost. Please try another page or contact your admin!</h2>
         <p>&nbsp;</p>
     <p>404 Error.</p>
-    
+    </div>
     
 </asp:Content>

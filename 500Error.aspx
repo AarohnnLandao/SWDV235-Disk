@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="500Error.aspx.cs" Inherits="_Default" MasterPageFile="~/MasterPage.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="500Error.aspx.cs" MasterPageFile="~/MasterPage.master" %>
 
 <asp:Content ID="mainContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -8,6 +8,6 @@
         <h2>Oops! It seems that the hyperspace lanes have been interupted. Please contact your admin.</h2></div>
         <p>&nbsp;</p>
         <p>500 Error</p>
-    
+        
     
 </asp:Content>

@@ -11,8 +11,11 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
-
-
-
+    protected void Page_Error(object sender, EventArgs e)
+    {
+        Exception ex = Server.GetLastError();
+        Session["Exception"] = ex;
+        Response.Redirect("~/DefaultError.aspx");
+    }
 
 }

@@ -5,11 +5,19 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class _Default : System.Web.UI.Page
+public partial class Error : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        Exception ex = (Exception)Session["Exception"];
+        if (ex.InnerException == null)
+        {
+            lblError.Text = ex.Message;
+        }
+        else
+        {
+            lblError.Text = ex.InnerException.Message;
+        }
     }
 
 
