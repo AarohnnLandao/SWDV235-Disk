@@ -18,8 +18,7 @@ public partial class _Default : System.Web.UI.Page
     {
        
     }
-
-
+    
     protected void Button1_Click(object sender, EventArgs e)
     {
         if (IsValid)
@@ -28,9 +27,7 @@ public partial class _Default : System.Web.UI.Page
         }
 
     }
-       
-    /*currently testing nonfunctional - attempt at label hiding
-     
+    
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
     {
         ConfirmationLabel.Visible = false;
@@ -40,6 +37,4 @@ public partial class _Default : System.Web.UI.Page
     {
         ConfirmationLabel.Visible = false;
     }
-    */
-
 }
